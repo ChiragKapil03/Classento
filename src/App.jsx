@@ -11,7 +11,7 @@ import insta from './assets/instagram.png';
 import x from './assets/twitter.png';
 import linkedin from './assets/linkedin.png';
 import hat from './assets/hat.png';
-import vector from './assets/vector.png';
+import vector from './assets/comma.png';
 import 'animate.css';
 import Photo from './Components/Photo/Photo';
 
