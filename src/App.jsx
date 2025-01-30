@@ -11,6 +11,7 @@ import insta from './assets/instagram.png';
 import x from './assets/twitter.png';
 import linkedin from './assets/linkedin.png';
 import hat from './assets/hat.png';
+import CEO from './assets/CEO.png';
 import vector from './assets/comma.png';
 import 'animate.css';
 import Photo from './Components/Photo/Photo';
@@ -146,7 +147,7 @@ function App() {
       <div className='flex flex-col lg:flex-row gap-20 w-10/12 mx-auto'>
         <div className='w-full lg:w-1/3 flex flex-col gap-2 mx-auto items-center'>
         <div className='bg-gradient-to-r from-blue-500 to-teal-400 p-2 w-[250px] h-[340px] md:w-[350px] lg:h-[400px] rounded-2xl'>
-          <img src="https://starsunfolded.com/wp-content/uploads/2020/12/Saurabh-Dwivedi.jpg" alt="" className='h-[320px] w-[240px] md:w-[350px] lg:h-[385px] rounded-2xl  '/>
+          <img src={CEO} alt="" className='h-[320px] w-[240px] md:w-[350px] lg:h-[385px] rounded-2xl  '/>
         </div>
           <p className='text-[30px] md:text-[40px] font-bold'>Saurav Dwivedi</p>
           <p className='text-lg text-gray-500 underline underline-offset-8 decoration-cyan-300 decoration-4'>~ First Teacher, Founder, and CEO of Classento</p>
