@@ -18,7 +18,7 @@ function Header() {
         </div>
         <div className='hidden lg:flex gap-5'>
             <button style={{border:"2px solid #0c8ce9", boxShadow:"3px 5px 0px 0px #7cc4f8"}} className='h-10 rounded-3xl w-24 text-sky-500 font-bold text-sm'>Login</button>
-            <button style={{border:"2px solid #0c8ce9", boxShadow:"3px 5px 0px 0px #7cc4f9"}} className='h-10 rounded-3xl w-48 text-sky-500 font-bold text-sm'>TRY A FREE LESSON</button>
+            <button style={{border:"2px solid #0c8ce9", boxShadow:"3px 5px 0px 0px rgb(83, 104, 224)"}} className='h-10 rounded-3xl w-48 text-white text-sm bg-gradient-to-r from-blue-400 to-teal-300'>TRY A FREE LESSON</button>
         </div>
         <div className='lg:hidden'>
             <FontAwesomeIcon icon={faBars} className="text-sky-500 h-6"/>
