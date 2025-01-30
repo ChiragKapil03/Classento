@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .no-scrollbar {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+
+body{
+    scroll-behavior: smooth;
+    /* border-top: 1px solid rgb(195, 195, 195); */
+}
+
+/* HTML: <div class="curved-edge"></div> */
+.curved-edge {
+  --c: 70px; /* control the curvature (works with percentage) */
+  height: 330px;
+  aspect-ratio: 1;
+  /* you can also update the 60%  */
+  mask: radial-gradient(60% var(--c) at 50% var(--c),#0000 calc(100% - 9px),#000) 0 calc(-6*var(--c));
+}
